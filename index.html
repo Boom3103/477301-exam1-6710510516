@@ -1,46 +1,103 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="th">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> BIS Fitness Center</title>
-    <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>BIS Fitness Center</title>
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header id="top">
-        <h1>Welcome to BIS Fitness Center</h1>
-        <p>Your journey to a healthier lifestyle starts here!</p>
-        <nav>
-            <ul>
-                <li><a href="#about">เกี่ยวกับเรา</a></li>
-                <li><a href="#pricing">แพ็คเกจค่าใช้บริการ</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
-  <main>
-    <section id="about">
-        <h2>เกี่ยวกับเรา</h2>
-        <p>BIS Fitness Center ให้บริการเพื่อช่วยให้คุณบรรลุเป้าหมายด้านสุขภาพของคุณ ศูนย์ของเราเป็นไปตามมาตรฐานระดับโลกและมีโค้ชที่มีประสบการณ์มากในการสนับสนุนคุณในทุกขั้นตอน</p>
-        <img src="images/gym.jpg" alt="workout">
-    </section>
-
-    <section id="pricing">
-        <h2>แพ็คเกจค่าใช้บริการ</h2>
-        <ul>
-            <li>แพ็คเกจรายเดือน</li>
-            <li>แพ็คเกจรายปี</li>
-            <li>บริการเสริม</li>
-        </ul>
-    </section>
-
-    <section id="contact">
-        <h2>Contact</h2>
-        <p>Email: info@bisfitness.com</p>
-        <p>Phone: 02-123-4567</p>
-    </section>
-  </main>
+<header id="top">
+<h1>BIS Fitness Center</h1>
+<p>ศูนย์ออกกำลังกายครบวงจร ยกระดับสุขภาพและสมรรถภาพที่ดีที่สุดของคุณ</p>
+<nav>
+<ul>
+<li><a href="#about">เกี่ยวกับเรา</a></li>
+<li><a href="#pricing">แพ็กเกจค่าบริการ</a></li>
+<li><a href="#contact">ติดต่อสอบถาม</a></li>
+</ul>
+</nav>
+</header>
+<main>
+<section id="about">
+<h2>เกี่ยวกับเรา</h2>
+<p>BIS Fitness Center มุ่งมั่นให้บริการพื้นที่ออกกำลังกายเพื่อช่วยให้คุณบรรลุเป้าหมายด้านสุขภาพของคุณอย่างปลอดภัย</p>
+<p>ศูนย์ของเราเป็นไปตามมาตรฐานระดับสากล และมีโค้ชที่มีประสบการณ์คอยดูแลให้คำแนะนำการฝึกซ้อมอย่างใกล้ชิด</p>
+<img src="images/gym.jpg" alt="บรรยากาศภายในฟิตเนสและอุปกรณ์ออกกำลังกาย">
+</section>
+<section id="pricing">
+<h2>แพ็กเกจค่าบริการ</h2>
+<table>
+<caption>ตารางอัตราค่าบริการสมาชิกและคลาสออกกำลังกาย</caption>
+<thead>
+<tr>
+<th>ประเภทแพ็กเกจ</th>
+<th>รายละเอียดการใช้งาน</th>
+<th>ราคา (บาท)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Day Pass</td>
+<td>เข้าใช้บริการทุกโซนได้ตลอด 1 วัน</td>
+<td>150</td>
+</tr>
+<tr>
+<td>Monthly Pass</td>
+<td>สมาชิกรายเดือน เข้าใช้งานได้ไม่จำกัด</td>
+<td>1,200</td>
+</tr>
+<tr>
+<td>Annual Pass</td>
+<td>สมาชิกรายปี ฟรีที่ปรึกษาการออกกำลังกาย</td>
+<td>12,000</td>
+</tr>
+</tbody>
+</table>
+<h3>จุดเด่นและเวลาให้บริการ</h3>
+<ul>
+<li>เปิดให้บริการทุกวัน: จันทร์ - อาทิตย์ เวลา 06:00 - 22:00 น.</li>
+<li>โซนเวทเทรนนิ่ง Free Weight, เครื่องออกกำลังกาย และ Cardio Zone ครบครัน</li>
+<li>มีห้องอาบน้ำ ล็อกเกอร์ และที่จอดรถสะดวกสบาย</li>
+</ul>
+</section>
+<section id="contact">
+<h2>ติดต่อสอบถาม / สมัครสมาชิก</h2>
+<form action="#" method="post">
+<div>
+<label for="fullname">ชื่อ-นามสกุล:</label>
+<input type="text" id="fullname" name="fullname" required>
+</div>
+<div>
+<label for="email">อีเมล:</label>
+<input type="email" id="email" name="email" required>
+</div>
+<div>
+<label for="phone">เบอร์โทรศัพท์:</label>
+<input type="tel" id="phone" name="phone" required>
+</div>
+<div>
+<label for="start-date">วันที่ต้องการเริ่มใช้งาน:</label>
+<input type="date" id="start-date" name="start_date" required>
+</div>
+<div>
+<label for="age">อายุ (ปี):</label>
+<input type="number" id="age" name="age" min="15" max="90">
+</div>
+<div>
+<label><input type="checkbox" name="trainer" value="yes"> สนใจรับคำปรึกษาจากเทรนเนอร์ส่วนตัว</label>
+</div>
+<div>
+<input type="submit" value="ส่งข้อมูล">
+</div>
+</form>
+</section>
+</main>
+<footer>
+<p>&copy; 2026 BIS Fitness Center. สงวนลิขสิทธิ์ทั้งหมด</p>
+<p>ผู้จัดทำ: รหัสนักศึกษา 6710510516</p>
+<p><a href="#top">กลับสู่ด้านบน</a></p>
+</footer>
 </body>
 </html>
-
-    
+ 
